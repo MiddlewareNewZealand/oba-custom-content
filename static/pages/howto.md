@@ -1,1 +1,1 @@
-# Welcome FAQ
+# Welcome HowTo

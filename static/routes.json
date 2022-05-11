@@ -24,7 +24,8 @@
         "active": true,
         "href": "/ext/about-company.md"
       },
-      { "title": "Developer howto", "active": true, "href": "/ext/howto.md" }
+      { "title": "Developer howto", "active": true, "href": "/ext/howto.md" },
+      { "title": "Example image page", "active": true, "href": "/ext/image.md" }
     ]
   }
 ]
