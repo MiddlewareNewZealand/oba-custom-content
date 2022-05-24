@@ -2,30 +2,32 @@
   {
     "id": "custom",
     "title": "Customized page",
-    "href": "/ext/customized.md",
+    "href": "/ext/pages/customized.md",
     "defaultExpanded": true,
     "children": [
       {
         "title": "Get some more details",
         "active": true,
-        "href": "/ext/detail.md"
+        "href": "/ext/pages/detail.md"
       },
-      { "title": "FAQ", "active": true, "href": "/ext/faq.md" }
+      { "title": "FAQ", "active": true, "href": "/ext/pages/faq.md" }
     ]
   },
   {
     "id": "another_content",
     "title": "Custom Details",
-    "href": "/ext/about.md",
+    "href": "/ext/pages/about.md",
     "defaultExpanded": true,
     "children": [
       {
         "title": "Company details",
         "active": true,
-        "href": "/ext/about-company.md"
+        "href": "/ext/pages/about-company.md"
       },
-      { "title": "Developer howto", "active": true, "href": "/ext/howto.md" },
-      { "title": "Example image page", "active": true, "href": "/ext/image.md" }
+      { "title": "Developer howto", "active": true, "href": "/ext/pages/howto.md" },
+      { "title": "Example image page", "active": true, "href": "/ext/pages/image.md" },
+      { "title": "Example HTML page", "active": true, "href": "/ext/html/index.html" },
+      { "title": "Uknown type page", "active": true, "href": "/ext/unknown/unknown.php" }
     ]
   }
 ]
