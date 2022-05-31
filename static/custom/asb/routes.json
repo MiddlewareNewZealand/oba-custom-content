@@ -1,0 +1,25 @@
+[
+    {
+        "id": "custom",
+        "title": "ASB Custom Pages",
+        "href": "/ext/pages/customized.md",
+        "defaultExpanded": true,
+        "children": [
+            {
+                "title": "Welcome",
+                "active": true,
+                "href": "/ext/pages/welcome.md"
+            },
+            {
+                "title": "FAQ",
+                "active": true,
+                "href": "/ext/pages/faq.md"
+            },
+            {
+                "title": "HTML Page",
+                "active": true,
+                "href": "/ext/html/asb-html.html"
+            }
+        ]
+    }
+]
