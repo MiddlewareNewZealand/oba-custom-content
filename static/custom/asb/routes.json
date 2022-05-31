@@ -2,7 +2,7 @@
     {
         "id": "custom",
         "title": "ASB Custom Pages",
-        "href": "/ext/pages/customized.md",
+        "href": "/ext/pages/welcome.md",
         "defaultExpanded": true,
         "children": [
             {
