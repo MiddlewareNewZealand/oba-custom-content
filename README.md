@@ -16,7 +16,7 @@ Custom content and routes for a particular theme must be provided behind `/custo
           |      |__ about.html
           |      |__ welcome.html
           |__ /markdown
-          |      |__ faq.html
+          |      |__ faq.md
           |__ /images
           |      |__ logo.png
           |__ routes.json
