@@ -9,8 +9,20 @@ Important things:
 1. All of the paths needs to start with `/ext` - it will be rewrited in the Portal to `[CUSTOM_CONTENT_PATH]/custom`
 1. All the pages needs to be behind `custom` endpoint
 
+Custom content and routes for a particular theme must be provided behind `/custom/<name of theme>`. Example structure:
+```
+/abcbank123
+          |__ /html
+          |      |__ about.html
+          |      |__ welcome.html
+          |__ /markdown
+          |      |__ faq.md
+          |__ /images
+          |      |__ logo.png
+          |__ routes.json
+```
 
 ## Including images
-The markdown images links should have whole path to it's resource from the perspective of the external consumer.
+The markdown images links should have whole path to its resource from the perspective of the external consumer.
 E.g. given image in `static/custom/resources/favicon-middleware.png` the link used in the Markdown file has to contain whole path including this custom content server path -> http://localhost:8080/resources/favicon-middleware.png
 So in this case the image definition within the markdown file will be `!["Middleware logo"](custom/resources/favicon-middleware.png)`
